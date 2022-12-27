@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "292002075067",
+    "project_id": "basededatosappdispet",
+    "storage_bucket": "basededatosappdispet.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292002075067:android:85b2d772b099e34e44349e",
+        "android_client_info": {
+          "package_name": "com.example.bottonnav"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292002075067-907imb17lis1qff3g2sm745g3cr5q8ak.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBcTmhVpJ3cFm8rEFt3cLwCbL7Yv8ZAMWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292002075067-907imb17lis1qff3g2sm745g3cr5q8ak.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

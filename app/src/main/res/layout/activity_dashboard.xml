@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Dashboard">
+
+    <EditText
+        android:id="@+id/idFecha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ingresar fecha: 01/01/2023"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textAlignment="center"
+        />
+
+    <EditText
+        android:id="@+id/idHora"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="ingresar hora: 14:30"
+        android:layout_marginTop="360dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textAlignment="center"/>
+
+    <Button
+        android:id="@+id/btnCrearDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="realizar registro de horario"
+        android:padding="15dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottom_navigator"
+        app:itemBackground="@color/purple_500"
+        app:itemTextColor="@drawable/selector"
+        app:itemIconTint="@drawable/selector"
+        app:menu="@menu/menu"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
